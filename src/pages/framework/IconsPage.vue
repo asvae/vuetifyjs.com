@@ -195,7 +195,7 @@
         |
         |   &lt;v-icon v-html="'$vuetify.icons.steam'"&gt;&lt;/v-icon&gt;
         |
-        |   &lt;v-icon v-text="system"&gt;&lt;/v-icon&gt;
+        |   &lt;v-icon v-text="platform"&gt;&lt;/v-icon&gt;
         | &lt;/template&gt;
         |
         | &lt;script&gt;
