@@ -177,7 +177,7 @@
         |   icons: {
         |     'product': 'mdi-dropbox',
         |     'support': 'mdi-lifebuoy',
-        |     'steam': 'mdi-steambox',
+        |     'steam': 'mdi-steam-box',
         |     'pc': 'mdi-desktop-classic',
         |     'xbox': 'mdi-xbox',
         |     'playstation': 'mdi-playstation',
@@ -209,7 +209,7 @@
         |
         |     computed: {
         |       platform () {
-        |         return '$vuetify.icons.' + user.platform
+        |         return '$vuetify.icons.' + this.user.platform
         |       }
         |     }
         |   }
