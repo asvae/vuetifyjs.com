@@ -238,4 +238,24 @@
         |   }
         | &lt;/script&gt;
 
+    section#component-icons
+      helpers-section-head(value="Framework.Icons.componentIconsHeader")
+      helpers-section-text(value="Framework.Icons.componentIconsText1")
+
+      helpers-markup(lang="js")
+        | import Vue from 'vue'
+        | import Vuetify from 'vuetify'
+        | import IconComponent from './IconComponent.vue'
+        |
+        | Vue.use(Vuetify, {
+        |   icons: {
+        |     'product': {
+        |       component: IconComponent, // you can use string here if component is registered globally
+        |       props: { // pass props to your component if needed
+        |         name: 'product'
+        |       }
+        |     }
+        |   }
+        | })
+
 </template>
